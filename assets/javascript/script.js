@@ -1,26 +1,25 @@
 //Global Variables
-var userPick;
-var currentQuestion;
-var currentAnswer;
-var array1 = ["Hello", "Sup bitch", "this is my party", "welcome to my crib", "Hey there heathen", "little hoe", 4];
+
 var questions = [{
 	question: "How many licks does it take to get to the center of a tootsie pop?",
 	answers: ["10", "30", "none", "The world may never know"],
-	correctAnswer: 3
+	correctAnswer: "The world may never know"
 }, {
 	question: "Who is the best point guard in the NBA?",
 	answers: ["Kryie Irving - Boston Celtics", "Steph Curry - Golden State Warriors", "James Harden - Houston Rockets", "Kemba Walker - Charlotte Hornets"],
-	correctAnswer: 0
+	correctAnswer: "Kryie Irving - Boston Celtics"
 }, {
 	question: "What team did Shaq play for?",
 	answers: ["LA Clippers", "Charlotte Bobcats", "LA Lakers", "Miami Heat"],
-	correctAnswer: 2
+	correctAnswer: "LA Lakers"
 }, {
 	question: "How many fouls does it take to foul out of a game in the NBA?",
 	answers: ["8", "6", "5", "4"],
-	correctAnswer: 1
+	correctAnswer: "6"
 }, {
-	question: "What year was the Charlotte Bobcats changed to the Charlotte Hornets?"
+	question: "What year was the Charlotte Bobcats changed back to the Charlotte Hornets?",
+	answers: ["2018", "4135", "2014", "2009"],
+	correctAnswer: "2014"
 }];
 
 //get random object from array
